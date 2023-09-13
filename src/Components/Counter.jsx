@@ -36,22 +36,28 @@ const Counter = () => {
             clearInterval(interval);
         };
     },);
+
+
     const addLeadingZero = (number) => {
         return number < 10 ? `0${number}` : number;
     };
+
+
+
+
     return (
         <div className="counter__container">
             <div className="timing__container">
                 <div className="timing__box">
-                    <div className="timing__box__number font-bold" style={{ color: `var(--primary)` }}>{timeRemaining.days}:</div>
+                    <div className="timing__box__number font-bold" style={{ color: `var(--primary)` }}>{addLeadingZero(timeRemaining.days)}:</div>
                     <div className="timing__box__text font-bold" style={{ color: `var(--primary)` }}>Days:</div>
                 </div>
                 <div className="timing__box">
-                    <div className="timing__box__number"style={{ color: `var(--tertiary)` }}>{timeRemaining.hours}:</div>
+                    <div className="timing__box__number"style={{ color: `var(--tertiary)` }}>{addLeadingZero(timeRemaining.hours)}:</div>
                     <div className="timing__box__text" style={{ color: `var(--tertiary)` }}>Hours:</div>
                 </div>
                 <div className="timing__box">
-                    <div className="timing__box__number" style={{ color: `var(--tertiary)` }}>{timeRemaining.minutes}:</div>
+                    <div className="timing__box__number" style={{ color: `var(--tertiary)` }}>{addLeadingZero(timeRemaining.minutes)}:</div>
                     <div className="timing__box__text" style={{ color: `var(--tertiary)` }}>Minutes:</div>
                 </div>
                 <div className="timing__box">
