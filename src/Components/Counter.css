@@ -1,0 +1,29 @@
+.counter__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.timing__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: large;
+}
+.timing__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.timing__box__number{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.timing__box__text{
+    font-size: small;
+    font-weight: bold;
+}

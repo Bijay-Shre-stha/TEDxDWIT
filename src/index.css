@@ -1,9 +1,20 @@
 :root {
   font-family:Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --primary: #ff0000;
+  --primary: #EB0028;
   --secondary: #000000;
   --tertiary: #ffffff;
   --quaternary: #000000;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
