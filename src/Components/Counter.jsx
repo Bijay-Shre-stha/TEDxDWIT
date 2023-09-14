@@ -1,7 +1,28 @@
 import { useState, useEffect } from "react";
 import './Counter.css'
+import anime from "animejs/lib/anime.es.js";
 
 const Counter = () => {
+
+    useEffect(() => {
+        anime({
+            targets: '.timing__box__number',
+            scale: [0.75, 1],
+            opacity: [0, 1],
+            delay: 2000,
+            duration: 2000,
+            easing: 'easeInOutQuad'
+        })
+        anime({
+            targets: '.timing__box__text',
+            scale: [0.75, 1],
+            opacity: [0, 1],
+            delay: 2500,
+            duration: 2000,
+            easing: 'easeInOutQuad'
+        })
+    }   
+    , [])
     // Create a Date object for September 30, 2023, at 9:00 AM
     const targetDate = new Date("2023-09-30T09:00:00").getTime();
 

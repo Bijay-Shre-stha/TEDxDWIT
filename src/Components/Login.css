@@ -1,0 +1,78 @@
+.login__container {
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transition: all 0.1s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    
+}
+
+
+.login__container form input {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid var(--tertiary);
+    transition: all 0.1s ease-in-out;
+}
+
+.login__container form input:focus {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.login__container form button {
+    background-color: var(--primary);
+    color: var(--tertiary);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.login__container form button:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.theme-btn:hover {
+    width: 40px !important;
+}
+
+@keyframes wobble {
+
+    0%,
+    100% {
+        transform: scale(1.025);
+    }
+
+    25%,
+    75% {
+        transform: scale(1);
+    }
+}
+
+.label {
+    color: var(--tertiary);
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}

@@ -3,7 +3,6 @@
   --primary: #EB0028;
   --secondary: #000000;
   --tertiary: #ffffff;
-  --quaternary: #000000;
 }
 
 *{
@@ -11,7 +10,9 @@
   padding: 0;
   box-sizing: border-box;
   background: #000;
+  color: var(--tertiary);
 }
+
 
 @tailwind base;
 @tailwind components;
