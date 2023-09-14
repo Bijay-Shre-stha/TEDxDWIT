@@ -1,0 +1,19 @@
+.credit {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.credit-content {
+    display: flex;
+    align-items: center;
+}
+
+.club__logo {
+    height: 50px;
+    margin-right: 10px; 
+}
+
+.credit-text {
+    font-weight: bold; 
+}
