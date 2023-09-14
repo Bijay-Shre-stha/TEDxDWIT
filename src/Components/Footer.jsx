@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <div className="credit">
         <div className="credit-content">
-            <span className="credit-text">Developed by</span>
+            {/* <span className="credit-text">Developed by</span> */}
             <img src={club} className="club__logo" alt="SOFTWARE CLUB LOGO" />
         </div>
     </div>

@@ -1,19 +1,20 @@
-import './App.css'
-import Counter from '../src/Components/Counter'
-import Header from '../src/Components/Header'
-import Login from '../src/Components/Login'
-import Footer from '../src/Components/Footer'
+import './App.css';
+import Counter from './Components/Counter';
+import Header from './Components/Header';
+import Login from './Components/Login';
+import Footer from './Components/Footer';
 
 function App() {
+  console.log("Developed By Bijay Shrestha (ZEROx0817), DWIT Software Club Member 2023");
 
   return (
     <div className="App">
-      <Header/>
-      <Counter/>
-      <Login/>
-      <Footer/>
-      </div>
-  )
+      <Header />
+      <Counter />
+      <Login />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

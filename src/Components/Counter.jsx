@@ -21,8 +21,8 @@ const Counter = () => {
             duration: 2000,
             easing: 'easeInOutQuad'
         })
-    }   
-    , [])
+    }
+        , [])
     // Create a Date object for September 30, 2023, at 9:00 AM
     const targetDate = new Date("2023-09-30T09:00:00").getTime();
 
@@ -74,7 +74,7 @@ const Counter = () => {
                     <div className="timing__box__text font-bold" style={{ color: `var(--primary)` }}>Days:</div>
                 </div>
                 <div className="timing__box">
-                    <div className="timing__box__number"style={{ color: `var(--tertiary)` }}>{addLeadingZero(timeRemaining.hours)}:</div>
+                    <div className="timing__box__number" style={{ color: `var(--tertiary)` }}>{addLeadingZero(timeRemaining.hours)}:</div>
                     <div className="timing__box__text" style={{ color: `var(--tertiary)` }}>Hours:</div>
                 </div>
                 <div className="timing__box">
