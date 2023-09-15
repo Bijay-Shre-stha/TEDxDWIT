@@ -8,7 +8,7 @@ const Login = () => {
             targets: '.login__container',
             scale: [0.75, 1],
             opacity: [0, 1],
-            delay: 2000,
+            delay: 250,
             duration: 2000,
             easing: 'easeInOutQuad'
         })
@@ -26,12 +26,9 @@ const Login = () => {
                         <input type="password" id="password" />
                     </div>
                     <button>Log In</button>
+                    <span>Interested in joining ?</span><br />
+                    <a href="https://tedx.deerwalk.edu.np/" className='underline' style={{ color: 'var(--primary)' }}>Register now!</a>
                 </form>
-                <a href="https://tedx.deerwalk.edu.np/" className='button'>
-                    <button >
-                        Register Now
-                    </button>
-                </a>
             </div>
         </div>
     )

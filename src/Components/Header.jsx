@@ -9,15 +9,15 @@ const Header = () => {
             targets: '.heading',
             scale: [0.75, 1],
             opacity: [0, 1],
-            delay: 2000,
-            duration: 2000,
+            delay: 250,
+            duration: 2500,
             easing: 'easeInOutQuad'
         })
         anime({
             targets: '.heading__text',
             scale: [0.75, 1],
             opacity: [0, 1],
-            delay: 3000,
+            delay: 2500,
             duration: 2000,
             easing: 'easeInOutQuad'
         })

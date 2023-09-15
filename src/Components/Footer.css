@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: -35px;
+    margin-top: -30px;
 }
 
 .credit-content {
@@ -11,10 +11,7 @@
 }
 
 .club__logo {
-    width: 110px;
-    margin-right: 10px; 
+    height: 100px;
 }
 
-.credit-text {
-    font-weight: bold; 
-}
+
