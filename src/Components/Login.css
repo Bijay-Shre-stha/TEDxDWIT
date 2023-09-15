@@ -60,7 +60,21 @@
     display: block;
     text-align: left;
 }
-.button{
-    background: var(--primary);
+
+.button {
+    background-color: var(--primary);
+    color: var(--tertiary);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
     width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    height: 50px;
+    text-align: center;
 }

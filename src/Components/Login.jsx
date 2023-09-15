@@ -26,10 +26,12 @@ const Login = () => {
                         <input type="password" id="password" />
                     </div>
                     <button>Log In</button>
-                    <button className='button'>
-                        <a href="https://tedx.deerwalk.edu.np/" className='button'>Register Now</a>
-                    </button>
                 </form>
+                <a href="https://tedx.deerwalk.edu.np/" className='button'>
+                    <button >
+                        Register Now
+                    </button>
+                </a>
             </div>
         </div>
     )
