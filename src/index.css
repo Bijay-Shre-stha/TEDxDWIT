@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:ital,wght@1,700&family=Poppins:ital,wght@0,500;1,100&display=swap');
 :root {
   font-family:Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --primary: #EB0028;
@@ -5,7 +6,7 @@
   --tertiary: #ffffff;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,5 +18,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
