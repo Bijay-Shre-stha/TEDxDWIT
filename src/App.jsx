@@ -1,5 +1,5 @@
 import './App.css';
-import Counter from './Components/Counter';
+// import Counter from './Components/Counter';
 import Header from './Components/Header';
 import Login from './Components/Login';
 import Footer from './Components/Footer';
@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Counter />
+      {/* <Counter /> */}
+      <my-counter></my-counter>
       <Login />
       <Footer />
     </div>

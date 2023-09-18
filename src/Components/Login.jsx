@@ -27,7 +27,10 @@ const Login = () => {
                     </div>
                     <button>Log In</button>
                     <span>Interested in joining ?</span><br />
-                    <a href="https://tedx.deerwalk.edu.np/" className='underline' style={{ color: 'var(--primary)' }}>Register now!</a>
+                    <a href="https://tedx.deerwalk.edu.np/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='underline' style={{ color: 'var(--primary)' }}>Register now!</a>
                 </form>
             </div>
         </div>
